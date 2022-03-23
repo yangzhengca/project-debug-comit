@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+    <section id="home">
+      <div class="btn">
+        <a class="blue" href="#">About Us</a>
+      </div>
+    </section>
+
+    <!-- <section id="about-container">
+      
+      <div class="about-text"></div>
+        <img  class="computer" src="images/computer.png" alt="computer">
+        <h2>300+ Courses</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium error sit ab cum veritatis unde eum in dolorem vel obcaecati, ducimus voluptates officia. Quod iure fugiat sequi minima in?</p>
+   
+        
+      </div>
+    </section> -->
+
+    <section id="about-container">
+      <div class="grid-container">
+        <div class="grid-item about-text">
+          <h2>300+ Courses</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            laudantium error sit ab cum veritatis unde eum in dolorem vel
+            obcaecati, ducimus voluptates officia. Quod iure fugiat sequi minima
+            in?
+          </p>
+        </div>
+        <div class="grid-item">
+          <img class="computer" src="images/computer.png" alt="computer" />
+        </div>
+      </div>
+    </section>
+
+    <section id="access">
+      <div class="about-fe">
+        <h2>Lifetime Access</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+          laudantium error sit ab cum veritatis unde eum in dolorem vel
+          obcaecati, ducimus voluptates officia. Quod iure fugiat sequi minima
+          in?
+        </p>
+      </div>
+      <div class="key">
+        <img src="images/key.png" alt="key" />
+      </div>
+    </section>
+
+    <%- include('./partials/footer.ejs') %>
+    <script src="script.js"></script>
+  </body>
+</html>
